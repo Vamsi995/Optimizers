@@ -60,4 +60,4 @@ class GradientDescent:
     def plotContour(self):
         anim = FuncAnimation(self.fig, self.animate,
                              frames=100, interval=20, blit=True)
-        anim.save('growingCoil.mp4', writer='ffmpeg', fps=5)
+        anim.save('accelerated.mp4', writer='ffmpeg', fps=5)
