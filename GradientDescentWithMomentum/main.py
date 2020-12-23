@@ -5,7 +5,7 @@ from descent import GradientDescent
 
 def main():
 
-    grad = GradientDescent(0.2)
+    grad = GradientDescent(0.2, 0.5)
     grad.plotContour()
 
 
